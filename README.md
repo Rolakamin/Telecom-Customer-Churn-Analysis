@@ -23,3 +23,29 @@ The objective of this project is to support Maven Telecommunications in improvin
 - Providing actionable insights and visualizations in a single-page Power BI dashboard tailored for executive review.
 
 This project ultimately aims to help the company retain more customers, especially those who contribute significantly to revenue and long-term business value.
+
+## Problem Statements
+
+**Maven Telecommunications** is facing customer retention challenges and needs to understand the underlying causes and patterns of churn in order to develop effective customer retention strategies.
+
+This project seeks to answer the following key business questions:
+
+- How many customers joined the company during the last quarter?
+
+- What is the profile of customers who churned, joined, or stayed? How are they different?
+
+- What are the main drivers of customer churn?
+
+- Is the company losing high-value customers? If so, how can they be retained?
+
+- What patterns can be identified based on customer tenure, service usage, and billing?
+
+- Are certain customer segments or demographics more likely to churn than others?
+
+- How can the company use data to make proactive, insight-driven retention decisions?
+
+## Data Overview
+
+
+
+
