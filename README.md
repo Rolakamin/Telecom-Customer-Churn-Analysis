@@ -19,7 +19,7 @@ The objective of this project is to support Maven Telecommunications in improvin
 
 - Identifying high-value customers at risk of churning.
 - Uncovering the key drivers of customer churn.
-- Profiling customers who churned, joined, and stayed to understand behavioral differences.
+- Profiling customers who churned, joined, and stayed to understand behavioral differences, that is, identifying key differences in tenure, service usage, contract type, and monthly charges.
 - Providing actionable insights and visualizations in a single-page Power BI dashboard tailored for executive review.
 
 This project ultimately aims to help the company retain more customers, especially those who contribute significantly to revenue and long-term business value.
