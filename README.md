@@ -22,4 +22,4 @@ The objective of this project is to support Maven Telecommunications in improvin
 - Profiling customers who churned, joined, and stayed to understand behavioral differences.
 - Providing actionable insights and visualizations in a single-page Power BI dashboard tailored for executive review.
 
-This project ultimately aims to help the company retain more customers, especially those who contribute significantly to revenue and long-term business value
+This project ultimately aims to help the company retain more customers, especially those who contribute significantly to revenue and long-term business value.
