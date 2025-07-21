@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The telecom industry is highly competitive due to the wide range of service providers available to consumers. One of the major challenges faced by telecom companies is customer churn, which is the rate at which customers discontinue their service.
+The telecom industry is highly competitive due to the wide range of service providers available to consumers. One of the major challenges faced by telecom companies is customer churn, which is the rate at which customers discontinue their services. 
 
 This project is part of a Maven Analytics challenge and is based on a fictional dataset from Maven Communications, a California-based telecommunications company. The goal is to analyze churn behavior, uncover key drivers behind customer attrition, identify patterns, and recommend targeted actions to improve customer retention.
 
