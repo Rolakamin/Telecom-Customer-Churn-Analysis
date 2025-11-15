@@ -42,6 +42,19 @@ To help the company improve retention by identifying high value customers and ch
 - How effective is the company at retaining new customers, and what is the first-year retention rate?
 
 ## Dataset Overview
+
+Dataset Overview
+Original Raw Data Structure
+Total Columns: 38 columns in the original telecom_customer_churn dataset
+
+Total Rows: 7,043 customer records
+
+Supporting Dataset: telecom_zipcode_population with 2 columns
+
+After Data Transformation
+Final Columns: 41 columns (added 3 new columns through feature engineering)
+
+New Columns: Age Group, Tenure Range, Customer Value Tier
  
 ### Dataset Details
 
