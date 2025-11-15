@@ -54,6 +54,8 @@ Supporting Dataset: telecom_zipcode_population with 2 columns
 After Data Transformation
 Final Columns: 41 columns (added 3 new columns through feature engineering)
 
+**Feature Engineering is the process of creating new columns (features) from existing raw data to make it more useful for analysis and machine learning.**
+
 New Columns: Age Group, Tenure Range, Customer Value Tier
  
 ### Dataset Details
