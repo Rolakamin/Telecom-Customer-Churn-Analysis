@@ -58,8 +58,8 @@ PROBLEM STATEMENTS
 
 ## Dataset Overview
 
-Dataset Overview
 Original Raw Data Structure
+
 Total Columns: 38 columns in the original telecom_customer_churn dataset
 
 Total Rows: 7,043 customer records
@@ -101,6 +101,7 @@ Maven Analytics Challenge Dataset
 California Zip Code Demographic Data
 
 Dataset Download Link
+
 [Insert dataset download link here when available]
 
 ## Data Cleaning and Transformation
