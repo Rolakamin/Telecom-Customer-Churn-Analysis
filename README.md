@@ -41,6 +41,8 @@ To help the company improve retention by identifying high value customers and ch
 - Are there specific cities or geographic areas with significantly higher churn rates that require targeted retention efforts?
 - How effective is the company at retaining new customers, and what is the first-year retention rate?
 
+  
+PROBLEM STATEMENTS
 - How many customers joined, stayed, or churned during the last quarter?
 
 - What are the characteristics of customers who churned versus those who stayed?
