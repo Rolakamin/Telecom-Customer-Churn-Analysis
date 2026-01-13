@@ -60,11 +60,10 @@ Feature engineering is the process of creating new columns (features) from exist
 - **Tenure Range (months):** 0–12, 13–24, 25–36, 37–48, 49–60, 61+  
 - **Customer Value Tier:** Low (<$50), Medium ($50–$80), High (>$80)  
 
-### Data Dictionary
-A data dictionary defines each column, its data type, and business meaning. The full dictionary is included in the **Appendix**.
-
 
 ## Data Sources
+
+Include all CSV files (primary dataset, supporting dataset, and data dictionary)
 
 The dataset used for this analysis is a csv.xlx file. The details are available at https://www.mavenanalytics.io/data-playground
 
@@ -76,6 +75,10 @@ The dataset can be downloaded [Here](https://github.com/Rolakamin/Telecom-Custom
 California Zip Code Population Dataset
 
 The dataset can be downloaded [Here](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_zipcode_population.csv)
+
+Data Dictionary 
+
+It can be downloaded [Here](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_zipcode_population.csv)
 
 
 
