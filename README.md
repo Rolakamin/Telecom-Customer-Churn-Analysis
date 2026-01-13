@@ -75,7 +75,7 @@ The dataset can be downloaded [Here](https://github.com/Rolakamin/Telecom-Custom
 
 California Zip Code Population Dataset
 
-The dataset can be downloaded [Here](https://github.com/Rolakamin/Project_Documentation/blob/main/Dataset.xlsx)
+The dataset can be downloaded [Here](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_zipcode_population.csv)
 
 
 
