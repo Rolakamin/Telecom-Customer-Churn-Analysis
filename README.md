@@ -70,7 +70,7 @@ The dataset used for this analysis is a csv.xlx file. The details are available 
 
 Maven Analytics Telecom Customer Churn Dataset
 
-The dataset can be downloaded [Here](https://github.com/Rolakamin/Project_Documentation/blob/main/Dataset.xlsx)
+The dataset can be downloaded [Here](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_customer_churn.csv)
 
 
 California Zip Code Population Dataset
