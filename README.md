@@ -78,7 +78,7 @@ The dataset can be downloaded [Here](https://github.com/Rolakamin/Telecom-Custom
 
 Data Dictionary 
 
-It can be downloaded [Here](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_zipcode_population.csv)
+It can be downloaded [Here](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_data_dictionary.csv)
 
 
 
