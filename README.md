@@ -61,7 +61,7 @@ Feature engineering is the process of creating new columns (features) from exist
 - **Customer Value Tier:** Low (<$50), Medium ($50–$80), High (>$80)  
 
 ### Data Dictionary
-A data dictionary defines each column, its data type, and business meaning. The full dictionary is included in the Appendix.
+A data dictionary defines each column, its data type, and business meaning. The full dictionary is included in the **Appendix**.
 
 
 
