@@ -42,41 +42,31 @@ To help the company improve retention by identifying high-value customers and ch
 
 ## Dataset Overview
 
-Original Raw Data Structure
+### Primary Dataset: Telecom Customer Churn
+- **Records:** 7,043 customer accounts  
+- **Time Period:** Q2 2022 (April–June)  
+- **Original Columns:** 38  
+- **Final Columns:** 41 (after feature engineering)  
+- **Categories / Key Features:** Customer demographics, service subscriptions, billing information, contract details, churn status  
 
-Total Columns: 38 columns in the original telecom_customer_churn dataset
+### Supporting Dataset: Zip Code Population
+- **Records:** 1,671 California zip codes  
+- **Purpose:** Geographic analysis and market penetration calculations  
+- **Key Features:** Zip code, estimated population  
 
-Total Rows: 7,043 customer records
+### Feature Engineering
+Feature engineering is the process of creating new columns (features) from existing raw data to make the dataset more informative for analysis. The following features were added:  
+- **Age Group:** 19–30, 31–45, 46–60, 61+  
+- **Tenure Range (months):** 0–12, 13–24, 25–36, 37–48, 49–60, 61+  
+- **Customer Value Tier:** Low (<$50), Medium ($50–$80), High (>$80)  
 
-Supporting Dataset: telecom_zipcode_population with 2 columns
-
-After Data Transformation
-Final Columns: 41 columns (added 3 new columns through feature engineering)
-
-**Feature Engineering is the process of creating new columns (features) from existing raw data to make it more useful for analysis and machine learning.**
-
-New Columns: Age Group, Tenure Range, Customer Value Tier
- 
-### Dataset Details
-
-**Primary Dataset**: Telecom Customer Churn
-
-**Records**: 7,043 customer accounts
-
-**Time Period**: Q2 2022 (April - June)
-
-**Features**: 41 columns after data transformation
-
-**Categories**: Customer demographics, service subscriptions, billing information, contract details, churn status
+### Data Dictionary
+A data dictionary defines each column, its data type, and business meaning. The full dictionary is included in the Appendix.
 
 
-**Supporting Dataset**: Zip Code Population
 
-**Records**: 1,671 California zip codes
 
-**Purpose**: Geographic analysis and market penetration calculations
 
-**Features**: Zip code, population estimates
 
 ## Data Sources
 
