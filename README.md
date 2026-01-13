@@ -63,22 +63,26 @@ Feature engineering is the process of creating new columns (features) from exist
 
 ## Data Sources
 
-Include all CSV files (primary dataset, supporting dataset, and data dictionary)
+The datasets used for this analysis are in CSV format. Details are also available at [Maven Analytics Data Playground](https://www.mavenanalytics.io/data-playground).
 
-The dataset used for this analysis is a csv.xlx file. The details are available at https://www.mavenanalytics.io/data-playground
+**1. Maven Analytics Telecom Customer Churn Dataset**  
 
-Maven Analytics Telecom Customer Churn Dataset
+The dataset contains customer account information for analysis.  
 
-The dataset can be downloaded [Here](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_customer_churn.csv)
+Download: [telecom_customer_churn.csv](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_customer_churn.csv)
 
+**2. California Zip Code Population Dataset**  
 
-California Zip Code Population Dataset
+The dataset contains population estimates for California zip codes.  
 
-The dataset can be downloaded [Here](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_zipcode_population.csv)
+Download: [telecom_zipcode_population.csv](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_zipcode_population.csv)
 
-Data Dictionary 
+**3. Data Dictionary**  
 
-It can be downloaded [Here](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_data_dictionary.csv)
+The data dictionary defines each column, its data type, and business meaning.  
+
+Download: [telecom_data_dictionary.csv](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_data_dictionary.csv)
+
 
 
 
