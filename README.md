@@ -64,19 +64,20 @@ Feature engineering is the process of creating new columns (features) from exist
 A data dictionary defines each column, its data type, and business meaning. The full dictionary is included in the **Appendix**.
 
 
-
-
-
-
 ## Data Sources
 
-Maven Analytics Challenge Dataset
+The dataset used for this analysis is a csv.xlx file. The details are available at https://www.mavenanalytics.io/data-playground
 
-California Zip Code Demographic Data
+Maven Analytics Telecom Customer Churn Dataset
 
-Dataset Download Link
+The dataset can be downloaded [Here](https://github.com/Rolakamin/Project_Documentation/blob/main/Dataset.xlsx)
 
-[Insert dataset download link here when available]
+
+California Zip Code Population Dataset
+
+The dataset can be downloaded [Here](https://github.com/Rolakamin/Project_Documentation/blob/main/Dataset.xlsx)
+
+
 
 ## Data Cleaning and Transformation
 
