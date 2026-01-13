@@ -11,50 +11,33 @@ In this project, I assume the role of a BI Consultant, responsible for translati
 
 ## Project Overview
 
+This project focuses on analyzing customer churn for Maven Communications. The goal is to understand churn behavior, uncover patterns, and recommend strategies to improve retention.
+
 ## Business Objectives
 
-### Main Objective: 
-To help the company improve retention by identifying high value customers and churn risks.
+### Main Objective
 
-### Specific Objectives:
+To help the company improve retention by identifying high-value customers and churn risks.
+
+### Specific Objectives
 
 - Analyze customer data to identify high-value customers
-
 - Calculate churn rates for different customer segments
-
 - Identify the main reasons why customers are leaving
-
 - Determine which customer demographics have the highest churn risk
-
 - Create metrics to measure customer value and churn probability
-
 - Build a dashboard to visualize churn patterns and risks
-
 - Provide actionable recommendations for retention strategies
+
 
 ## Problem Statements
 
-- How many customers joined, stayed, or churned during the last quarter, and what are the corresponding rates?
-- What are the demographic and behavioral characteristics of customers who churned versus those who stayed or joined? Are there significant differences in age, tenure, or value tiers?
-- What are the primary reasons customers are leaving the company, and which categories account for the majority of churn?
-- Is the company losing high-value customers at a disproportionate rate, and what is the revenue impact of this attrition?
-- Do certain services like internet or phone have higher churn rates, and how do service bundles affect customer retention?
-- Are there specific cities or geographic areas with significantly higher churn rates that require targeted retention efforts?
-- How effective is the company at retaining new customers, and what is the first-year retention rate?
-
-  
-PROBLEM STATEMENTS
 - How many customers joined, stayed, or churned during the last quarter?
-
 - What are the characteristics of customers who churned versus those who stayed?
-
 - What are the main drivers of customer churn?
-
 - Is the company losing high-value customers disproportionately?
-
 - Which customer segments show the highest churn risk?
-
-- Where should retention efforts be focused for maximum impact
+- Where should retention efforts be focused for maximum impact?
 
 
 ## Dataset Overview
