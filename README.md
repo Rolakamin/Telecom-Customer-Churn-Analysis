@@ -2,11 +2,12 @@
 
 ## Introduction
 
-The telecom industry is highly competitive due to the wide range of service providers available to consumers. One of the major challenges faced by telecom companies is customer churn, which is the rate at which customers discontinue their services. 
+The telecommunications industry is highly competitive, with customers having access to a wide range of service providers. As a result, customer churn, the rate at which customers discontinue their services remains a critical business challenge for telecom companies.
 
-This project is part of a Maven Analytics challenge and is based on a fictional dataset from Maven Communications, a California-based telecommunications company. The goal is to analyze churn behavior, uncover key drivers behind customer attrition, identify patterns, and recommend targeted actions to improve customer retention.
+This project is part of a Maven Analytics challenge and is based on a fictional dataset from Maven Communications, a California-based telecommunications provider. The analysis focuses on understanding customer churn behavior, identifying key drivers of attrition, uncovering meaningful patterns across customer segments, and recommending data-driven actions to improve customer retention.
 
-In this project, I assume the role of a BI Consultant, tasked with presenting findings and strategic insights to the Chief Marketing Officer (CMO) in the form of a concise, one-page Power BI dashboard.
+In this project, I assume the role of a BI Consultant, responsible for translating analytical findings into strategic insights for the Chief Marketing Officer (CMO). These insights are delivered through a concise, one-page Power BI dashboard designed to support executive decision-making.
+
 
 ## Project Overview
 
