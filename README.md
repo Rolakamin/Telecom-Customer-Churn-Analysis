@@ -91,6 +91,9 @@ New features were created in Power Query to enhance analytical depth and enable 
 
 - **Age Group:** Segmented customers into 19–30, 31–45, 46–60, and 61+
 
+ 
+ 
+
   
 - **Tenure Range:** Grouped tenure into 0–12, 13–24, 25–36, 37–48, 49–60, and 61+ months
 
