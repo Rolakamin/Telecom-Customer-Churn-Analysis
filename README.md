@@ -54,12 +54,6 @@ To help the company improve retention by identifying high-value customers and ch
 - **Purpose:** Geographic analysis and market penetration calculations  
 - **Key Features:** Zip code, estimated population  
 
-### Feature Engineering
-Feature engineering is the process of creating new columns (features) from existing raw data to make the dataset more informative for analysis. The following features were added:  
-- **Age Group:** 19–30, 31–45, 46–60, 61+  
-- **Tenure Range (months):** 0–12, 13–24, 25–36, 37–48, 49–60, 61+  
-- **Customer Value Tier:** Low (<$50), Medium ($50–$80), High (>$80)  
-
 
 ## Data Sources
 
@@ -84,26 +78,33 @@ The data dictionary defines each column, its data type, and business meaning.
 Download: [telecom_data_dictionary.csv](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecom_data_dictionary.csv)
 
 
-
-
 ## Data Cleaning and Transformation
 
-**Data Quality Issues Identified and Resolved**
-
-- Negative Monthly Charges: Identified and corrected negative values by replacing with $0
-
-- Missing Service Data: Addressed blank fields in phone and internet service columns
-
-- Incomplete Churn Information: Handled null values in churn category and reason fields
-
-- Data Type Inconsistencies: Standardized data types across all columns
+### Data Quality Issues Identified and Resolved
+- **Negative Monthly Charges:** Identified and corrected negative values by replacing them with $0  
+- **Missing Service Data:** Addressed blank fields in phone and internet service columns  
+- **Incomplete Churn Information:** Handled null values in churn category and reason fields  
+- **Data Type Inconsistencies:** Standardized data types across all columns  
 
 ### Feature Engineering
-Age Segmentation: Created customer age groups (19-30, 31-45, 46-60, 61+)
+New features were created in Power Query to enhance analytical depth and enable meaningful segmentation:
 
-Tenure Categorization: Developed tenure ranges in months (0-12, 13-24, 25-36, 37-48, 49-60, 61+)
+- **Age Group:** Segmented customers into 19–30, 31–45, 46–60, and 61+
 
-Customer Value Classification: Established value tiers based on monthly spending (Low: <$50, Medium: $50-80, High: >$80)
+  
+- **Tenure Range:** Grouped tenure into 0–12, 13–24, 25–36, 37–48, 49–60, and 61+ months
+
+   
+- **Customer Value Tier:** Classified customers based on monthly charges:
+  - Low (<$50)  
+  - Medium ($50–$80)  
+  - High (>$80)
+ 
+
+    
+
+Screenshots illustrating the Power Query transformations are included to demonstrate the feature engineering process.
+
 
 ## Data Modeling
 
