@@ -91,14 +91,17 @@ New features were created in Power Query to enhance analytical depth and enable 
 
 - **Age Group:** Segmented customers into 19–30, 31–45, 46–60, and 61+
 
+  
+
  ![Age Group Screenshot](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/age_group.png)
  
 
- 
- 
+  - **Tenure Range:** Grouped tenure into 0–12, 13–24, 25–36, 37–48, 49–60, and 61+ months
 
-  
-- **Tenure Range:** Grouped tenure into 0–12, 13–24, 25–36, 37–48, 49–60, and 61+ months
+
+
+ ![Tenure Range Screenshot](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/tenure_range.png)
+
 
    
 - **Customer Value Tier:** Classified customers based on monthly charges:
