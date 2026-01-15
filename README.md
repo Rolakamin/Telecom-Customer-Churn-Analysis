@@ -140,13 +140,236 @@ This section outlines the key DAX measures created to support churn, retention, 
 
 **Total Customers**
 
-Represents the total number of customer records in the dataset. This measure serves as the base metric for all rate and percentage calculat
+Represents the total number of customer records in the dataset. This measure serves as the base metric for all rate and percentage calculations.
 
 ````
 Total Customers = 
 COUNTROWS('telecom_customer_churn')
 ````
-ions.
+
+**Churned Customers**
+
+Counts the number of customers whose status is marked as -**Churned**- during the quarter.
+
+````
+Churned Customers = 
+CALCULATE(
+    [Total Customers],
+    'telecom_customer_churn'[Customer Status] = "Churned"
+)
+````
+
+**Stayed Customers**
+
+Counts customers who remained with the company during the analysis period.
+
+````
+Stayed Customers = 
+CALCULATE(
+    [Total Customers], 
+    'telecom_customer_churn'[Customer Status] = "Stayed"
+)
+````
+
+**Joined Customers**
+
+Counts new customers who joined the company during the quarter.
+
+````
+Joined Customers = 
+CALCULATE(
+    [Total Customers],
+    'telecom_customer_churn'[Customer Status] = "Joined"
+)
+````
+
+### Churn and Retention Rates
+
+**Churn Rate**
+
+Measures the proportion of customers who churned relative to the total customer base for the period.
+
+````
+Churn Rate = 
+DIVIDE([Churned Customers], [Total Customers], 0)
+````
+
+**Retention Rate**
+
+Measures the proportion of customers who stayed with the company during the quarter.
+
+````
+Retention Rate = 
+DIVIDE([Stayed Customers], [Total Customers], 0)
+````
+
+
+**Join Rate**
+
+Represents the percentage of new customers acquired relative to the total customer base.
+
+````
+Join Rate = 
+DIVIDE([Joined Customers], [Total Customers], 0)
+````
+
+**High Value Churned**
+
+Counts the number of churned customers classified as High Value based on monthly charges.
+
+````
+High Value Churned = 
+CALCULATE(
+    [Total Customers],
+    'telecom_customer_churn'[Customer Status] = "Churned",
+    'telecom_customer_churn'[Customer Value Tier] = "High Value"
+)
+````
+
+
+**High Value Churn Rate**
+
+Calculates the churn rate specifically for high-value customers, highlighting whether premium customers are leaving at a higher rate.
+
+````
+High Value Churn Rate = 
+VAR HighValueCustomers = 
+    CALCULATE(
+        [Total Customers], 
+        'telecom_customer_churn'[Customer Value Tier] = "High Value"
+    )
+VAR HighValueChurned = 
+    CALCULATE(
+        [Total Customers],
+        'telecom_customer_churn'[Customer Status] = "Churned",
+        'telecom_customer_churn'[Customer Value Tier] = "High Value"
+    )
+RETURN
+DIVIDE(HighValueChurned, HighValueCustomers, 0)
+````
+
+
+### Customer Behaviour and Tenure Metrics
+
+**Average Tenure (Months)**
+
+Calculates the average number of months customers have remained with the company.
+
+````
+Avg Tenure Months = 
+AVERAGE('telecom_customer_churn'[Tenure in Months])
+````
+
+**Average Tenure of Churned Customers**
+
+Measures how long churned customers stayed before leaving, helping identify early versus long-term churn patterns.
+
+````
+Avg Tenure of Churned Customers = 
+CALCULATE(
+    [Avg Tenure Months],
+    'telecom_customer_churn'[Customer Status] = "Churned"
+)
+````
+
+
+**New Customer Retention Rate**
+
+Evaluates the retention rate of customers within their first 12 months, highlighting onboarding and early experience effectiveness.
+
+````
+New Customer Retention Rate = 
+CALCULATE(
+    [Retention Rate], 
+    'telecom_customer_churn'[Tenure Range] = "0-12 Months"
+)
+````
+
+
+### Financial Metrics
+
+**Total Revenue**
+
+Calculates the total revenue generated from all customers in the dataset.
+
+````
+Total Revenue = 
+SUM('telecom_customer_churn'[Total Revenue])
+````
+
+**Average Revenue Per User (ARPU)**
+
+Measures the average revenue generated per customer, a key telecom performance indicator.
+
+````
+Average Revenue Per User (ARPU) = 
+DIVIDE([Total Revenue], [Total Customers], 0)
+````
+
+**Average Monthly Charge**
+
+Calculates the average monthly charge billed to customers.
+
+````
+Avg Monthly Charge = 
+AVERAGE('telecom_customer_churn'[Monthly Charge])
+````
+
+
+**Revenue Lost to Churn**
+
+Estimates the total revenue lost due to customers who churned during the quarter.
+
+````
+Revenue Lost to Churn = 
+CALCULATE(
+    SUM('telecom_customer_churn'[Total Revenue]),
+    'telecom_customer_churn'[Customer Status] = "Churned"
+)
+````
+
+### Penetration Metrics
+
+**Customers Per Capita**
+
+Measures customer penetration by comparing the number of customers to the population in each zip code.
+
+````
+Customers Per Capita = 
+DIVIDE(
+    [Total Customers],
+    SUM('telecom_zipcode_population'[Population]),
+    0
+)
+````
+
+### Service and Product Metrics
+
+**Internet Service Churn Rate**
+
+Calculates the churn rate among customers subscribed to internet services.
+
+````
+Internet Service Churn Rate = 
+CALCULATE(
+    [Churn Rate], 
+    'telecom_customer_churn'[Internet Service] = "Yes"
+)
+````
+
+**Phone Service Churn Rate**
+
+Calculates the churn rate among customers subscribed to phone services.
+
+````
+Phone Service Churn Rate = 
+CALCULATE(
+    [Churn Rate], 
+    'telecom_customer_churn'[Phone Service] = "Yes"
+)
+````
+
+
 
 
 ## DAX Measures Development
@@ -160,6 +383,7 @@ ions.
 - **Behavioral Analysis**: Average Tenure Months, New Customer Retention Rate
 
 - **Service Metrics**: Internet Service Churn Rate, Phone Service Churn Rate
+
 
 ## Data Analysis and Visualization
 
