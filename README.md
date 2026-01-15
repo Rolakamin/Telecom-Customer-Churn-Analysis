@@ -140,12 +140,13 @@ This section outlines the key DAX measures created to support churn, retention, 
 
 **Total Customers**
 
+Represents the total number of customer records in the dataset. This measure serves as the base metric for all rate and percentage calculat
+
 ````
 Total Customers = 
 COUNTROWS('telecom_customer_churn')
 ````
-
-Represents the total number of customer records in the dataset. This measure serves as the base metric for all rate and percentage calculations.
+ions.
 
 
 ## DAX Measures Development
