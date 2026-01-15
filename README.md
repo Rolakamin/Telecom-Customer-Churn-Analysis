@@ -134,6 +134,22 @@ New features were created in Power Query to enhance analytical depth and enable 
 
 ## DAX Measures Development
 
+This section outlines the key DAX measures created to support churn, retention, financial, and service-level analysis. Each measure is briefly explained to clarify its business meaning, followed by the corresponding DAX formula.
+
+### Customer Count Metrics
+
+**Total Customers**
+
+````
+Total Customers = 
+COUNTROWS('telecom_customer_churn')
+````
+
+Represents the total number of customer records in the dataset. This measure serves as the base metric for all rate and percentage calculations.
+
+
+## DAX Measures Development
+
 - **Customer Base Metrics**: Total Customers, Churned Customers, Stayed Customers, Joined Customers
 
 - **Performance Rates**: Churn Rate, Retention Rate, Join Rate, High Value Churn Rate
