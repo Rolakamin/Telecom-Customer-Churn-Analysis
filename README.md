@@ -91,7 +91,7 @@ New features were created in Power Query to enhance analytical depth and enable 
 
 - **Age Group:** Segmented customers into 19–30, 31–45, 46–60, and 61+
 
- ![Fact Table Screenshot](https://github.com/Rolakamin/Supplier-Quality-and-Performance/blob/main/fact_table.png)
+ ![Age Group Screenshot](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/age_group.png)
  
 
  
