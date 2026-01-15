@@ -110,9 +110,11 @@ New features were created in Power Query to enhance analytical depth and enable 
   - High (>$80)
  
 
-    
+![Customer Value Tier Screenshot](    https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/customer_value_tier.png
+ )
+       
 
-Screenshots illustrating the Power Query transformations are included to demonstrate the feature engineering process.
+**Screenshots illustrating the Power Query transformations are included to demonstrate the feature engineering process.**
 
 
 ## Data Modeling
