@@ -95,7 +95,6 @@ New features were created in Power Query to enhance analytical depth and enable 
 
  ![Age Group Screenshot](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/age_group.png)
  
-
   - **Tenure Range:** Grouped tenure into 0–12, 13–24, 25–36, 37–48, 49–60, and 61+ months
 
 
@@ -127,6 +126,10 @@ New features were created in Power Query to enhance analytical depth and enable 
 
 
 **Power BI model view illustrating table relationships is shown below.**
+
+
+ ![Data Model Screenshot](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/data_model.png)
+
 
 
 ## DAX Measures Development
