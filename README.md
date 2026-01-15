@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The telecommunications industry is highly competitive, with customers having access to a wide range of service providers. As a result, customer churn, the rate at which customers discontinue their services remains a critical business challenge for telecom companies.
+The telecommunications industry is highly competitive, with customers having access to a wide range of service providers. As a result, customer churn, the rate at which customers discontinue their services remains, a critical business challenge for telecom companies.
 
 This project is part of a Maven Analytics challenge and is based on a fictional dataset from Maven Communications, a California-based telecommunications provider. The analysis focuses on understanding customer churn behavior, identifying key drivers of attrition, uncovering meaningful patterns across customer segments, and recommending data-driven actions to improve customer retention.
 
