@@ -119,9 +119,15 @@ New features were created in Power Query to enhance analytical depth and enable 
 
 ## Data Modeling
 
-**Data Relationships**
+### Data Relationships
 
-- Established primary relationship between customer churn and zip code population tables using Zip Code as key
+- Established a one-to-many relationship between the Telecom Customer Churn table and the Zip Code Population table using Zip Code as the primary key.
+  
+- Applied a single-direction filter flow from the Zip Code Population table to the Customer Churn table to support accurate geographic analysis and market penetration analysis.
+
+
+**Power BI model view illustrating table relationships is shown below.**
+
 
 ## DAX Measures Development
 
