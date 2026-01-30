@@ -488,19 +488,17 @@ An interactive version of the dashboard is available on Power BI Service, enabli
 
 ## Findings and Insights
 
-Critical Business Discoveries
+- Customer churn represents a significant financial risk, with a churn rate of 26.54% and over $3.68M in revenue lost during Q2 2022.
 
-- High-Value Customer Attrition: 34.11% churn rate among high-value segments versus 26.54% company average
+- High-value customers are disproportionately affected by churn, accounting for nearly 48% of all churned customers, indicating that revenue loss is driven not just by volume, but by the exit of customers with higher monthly charges.
 
-- Competitive Vulnerability: 68% of primary churn reasons attributed to competitive factors including better devices, offers, and data plans
+- Senior customers (61+) show the highest churn volumes, suggesting that existing products, pricing structures, or support experiences may not be well-aligned with the needs of older customers.
 
-- Demographic Trends: Customers aged 61+ demonstrate highest churn volume with 606 customers lost
+- Churn is geographically concentrated, with San Diego and Fallbrook exhibiting exceptionally high churn rates compared to other cities, highlighting clear opportunities for location-specific retention initiatives.
 
-- Geographic Concentration: Southern California regions, particularly San Diego, Fallbrook, and Temecula, show churn rates exceeding 57%
+- Competitive pressures are the primary drivers of churn, as competitor-related issues (better devices, pricing, and data plans) account for approximately 68% of the top churn reasons, outweighing service or support-related factors.
 
-- Retention Gaps: New customer retention critically low at 31.79%, indicating onboarding process deficiencies
-
-- Service Performance: Internet service subscribers churn at 31.83% compared to 26.71% for phone service customers
+- New customer retention remains weak, with fewer than one-third of newly joined customers retained, indicating gaps in onboarding, early engagement, or value communication during the first year of the customer lifecycle.
 
 ## Recommendations
 
