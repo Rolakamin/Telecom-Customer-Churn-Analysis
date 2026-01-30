@@ -468,11 +468,15 @@ Based on the analysis, three priority actions are highlighted:
 
 The dashboard consolidates customer, financial, demographic, and geographic insights into a single, executive-ready view. It identifies high-risk segments, key churn drivers, and priority intervention areas, enabling data-driven retention strategies aligned with business objectives.
 
+---
+
 ### Executive Dashboard Snapshot
 
 The screenshot below presents the complete one-page Power BI dashboard, designed to provide an at-a-glance view of customer churn performance, revenue exposure, and priority risk areas for Q2 2022.
 
 ![Telecom Customer Churn Dashboard](images/telecom_customer_churn_dashboard.png)
+
+---
 
 ### Interactive Dashboard (Power BI Service)
 
