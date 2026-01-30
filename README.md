@@ -387,6 +387,100 @@ CALCULATE(
 
 ## Data Analysis and Visualization
 
+A one-page Power BI dashboard was developed to address key business questions around customer churn, revenue impact, and retention opportunities for Q2 2022. The visuals focus on delivering clear, actionable insights for executive decision-making.
+
+### Key Performance Indicator
+
+Key KPIs summarize overall customer and financial performance:
+- **Total Revenue:** $21.37M  
+- **Revenue Lost to Churn:** $3.68M  
+- **Churn Rate:** 26.54%  
+- **High-Value Churn Rate:** 34.11%  
+- **Joined Customers:** 454  
+- **New Customer Retention:** 31.79%  
+
+These metrics show that churn represents a significant financial risk, particularly among high-value and newly acquired customers.
+
+---
+
+### Customer Churn Distribution
+
+A donut chart shows customer status distribution:
+- **Stayed:** 67.02%  
+- **Churned:** 26.54%  
+- **Joined:** 6.45%  
+
+This confirms that while most customers remain active, churn affects over one-quarter of the customer base.
+
+---
+
+### High-Value Customers and Churn Risk
+
+A pie chart highlights churned customers by value tier:
+- **High Value:** 47.9%  
+- **Medium Value:** 31.8%  
+- **Low Value:** 20.3%  
+
+High-value customers account for nearly half of total churn, indicating disproportionate revenue risk.
+
+---
+
+### Demographic Churn Patterns
+
+A clustered bar chart comparing churned, stayed, and joined customers by age group shows:
+- The **61+ age group** has the highest churn volume
+- Younger customers demonstrate stronger retention and acquisition performance  
+
+Higher churn among customers aged 61 and above highlights this group as a critical focus area for retention efforts.
+
+---
+
+### Geographic Concentration of Churn
+
+A clustered bar chart displays the **Top 5 Cities by Churned Customers**, ranked by churn rate:
+- **San Diego** and **Fallbrook** exhibit exceptionally high churn rates  
+
+This reveals concentrated geographic churn risk and supports targeted, location-based retention efforts.
+
+---
+
+### Drivers of Customer Churn
+
+A bar chart of churn reasons shows that competitive factors dominate:
+- Better competitor devices, offers, and data plans account for **approximately 68%** of top churn reasons  
+
+This suggests churn is driven primarily by market competition rather than internal service failures.
+
+---
+
+### Strategic Focus Areas
+
+Based on the analysis, three priority actions are highlighted:
+1. **Competitive Response:** Improve device offerings, pricing, and data plans  
+2. **Senior Customer Retention:** Simplify plans and enhance support for customers aged 61+  
+3. **High-Value Customer Protection:** Proactive retention for customers with monthly charges above $80  
+
+**Geographic Focus:** Immediate attention should be directed toward high-churn cities such as **San Diego** and **Fallbrook**.
+
+---
+
+### Summary
+
+The dashboard consolidates customer, financial, demographic, and geographic insights into a single, executive-ready view. It identifies high-risk segments, key churn drivers, and priority intervention areas, enabling data-driven retention strategies aligned with business objectives.
+
+### Executive Dashboard Snapshot
+
+The screenshot below presents the complete one-page Power BI dashboard, designed to provide an at-a-glance view of customer churn performance, revenue exposure, and priority risk areas for Q2 2022.
+
+![Telecom Customer Churn Dashboard](images/telecom_customer_churn_dashboard.png)
+
+### Interactive Dashboard (Power BI Service)
+
+An interactive version of the dashboard is available on Power BI Service, enabling deeper exploration of churn patterns across customer segments and locations.  
+
+🔗 [Explore the live Power BI dashboard](PASTE_YOUR_LINK_HERE)
+
+
 
 ## Findings and Insights
 
