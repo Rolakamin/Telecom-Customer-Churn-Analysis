@@ -482,7 +482,7 @@ The screenshot below presents the complete one-page Power BI dashboard, designed
 
 An interactive version of the dashboard is available on Power BI Service, enabling deeper exploration of churn patterns across customer segments and locations.  
 
-🔗 [Explore the live Power BI dashboard](PASTE_YOUR_LINK_HERE)
+🔗 [Explore the Power BI dashboard](https://app.powerbi.com/groups/me/reports/83daed16-935b-4511-815a-79346a773801/b3dea5a26a46180d3c70?experience=power-bi)
 
 
 
