@@ -474,7 +474,7 @@ The dashboard consolidates customer, financial, demographic, and geographic insi
 
 The screenshot below presents the complete one-page Power BI dashboard, designed to provide an at-a-glance view of customer churn performance, revenue exposure, and priority risk areas for Q2 2022.
 
-![Telecom Customer Churn Dashboard](images/telecom_customer_churn_dashboard.png)
+![Telecom Customer Churn Dashboard](https://github.com/Rolakamin/Telecom-Customer-Churn-Analysis/blob/main/telecoms_customer_churn_dashboard.png)
 
 ---
 
