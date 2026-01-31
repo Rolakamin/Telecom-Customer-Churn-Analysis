@@ -1,5 +1,24 @@
 # Telecom Customer Churn Analysis
 
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Project Overview](#project-overview)
+- [Business Objectives](#business-objectives)
+- [Problem Statements](#problem-statements)
+- [Dataset Overview](#dataset-overview)
+- [Data Sources](#data-sources)
+- [Data Cleaning and Transformation](#data-cleaning-and-transformation)
+- [Data Modelling](#data-modelling)
+- [DAX Measures Development](#dax-measures-development)
+- [Data Analysis and Visualization](#data-analysis-and-visualization)
+- [Findings and Insights](#findings-and-insights)
+- [Recommendations](#recommendations)
+- [Challenges and Limitations](#challenges-and-limitations)
+  
+
+
 ## Introduction
 
 The telecommunications industry is highly competitive, with customers having access to a wide range of service providers. As a result, customer churn, the rate at which customers discontinue their services remains, a critical business challenge for telecom companies.
