@@ -502,65 +502,37 @@ An interactive version of the dashboard is available on Power BI Service, enabli
 
 ## Recommendations
 
-Strategic Initiatives
-Competitive Response Program
-Implement competitive offer matching for devices and data plans
+Based on the analysis, the following actions are recommended to reduce churn and protect revenue:
 
-Establish continuous competitive intelligence monitoring
+- Respond to competitive pressure: Improve device offerings, pricing, and data plan flexibility, and introduce targeted incentives to counter competitor-driven churn.
 
-Develop rapid response capabilities for competitive threats
+- Protect high-value customers: Proactively retain customers with monthly charges above $80 through loyalty benefits, priority support, and early churn intervention.
 
-Customer Segment Protection
-Create specialized retention programs for high-value customers
+- Improve retention among senior customers (61+): Simplify plans and billing, enhance communication clarity, and provide dedicated support to address the highest-risk age segment.
 
-Design simplified service bundles for senior customer segments
+- Target high-churn locations: Focus retention efforts in San Diego and Fallbrook, using localized campaigns and location-specific analysis before scaling.
 
-Implement proactive retention outreach for at-risk customers
-
-Operational Improvements
-Enhance new customer onboarding experience
-
-Develop geographic-specific retention strategies for high-churn areas
-
-Optimize service bundles based on churn analysis findings
+- Strengthen early customer retention: Improve onboarding and engagement within the first 90 days through incentives, follow-ups, and early churn monitoring.
 
 
 ## Challenges and Limitations
 
-Data Constraints
-Limited to single quarter analysis without historical trend data
+**Data Constraints**
 
-Absence of customer satisfaction and service quality metrics
+- **Single-quarter analysis (Q2 2022)**: Only one quarter of data was available, so trends over time cannot be observed, limiting insights on whether churn is increasing or decreasing.
 
-Self-reported churn reasons potentially subject to response bias
+- **Missing satisfaction and service quality metrics**: Customer happiness and service performance data were not included, which limits understanding of why customers leave.
 
-Analytical Limitations
-Inability to establish causal relationships due to correlational nature
+- **Self-reported churn reasons**: Customers provided their own reasons for leaving, which may be biased or incomplete, potentially affecting the accuracy of churn driver analysis.
+  
 
-Geographic analysis constrained to zip code level granularity
+**Analytical Limitations**
 
-Missing cost data prevents comprehensive ROI calculations
+- **Correlation, not causation**: Observed patterns, such as higher churn among senior customers, show a relationship but do not prove that age directly causes churn. Other factors (like plan complexity or device preferences) could be influencing their behavior. Recommendations are based on these insights, but they do not guarantee outcomes.
 
+- **Zip code-level geographic analysis**: Analysis is limited to zip codes, which may mask local neighborhood variations in churn.
 
-References
-Data Sources
-Maven Analytics Telecom Customer Churn Dataset
-
-California Zip Code Population Estimates
-
-Technical Documentation
-Microsoft Power BI Official Documentation
-
-DAX Function Reference Guide
-
-Data Visualization Best Practices
-
-Industry Resources
-Telecommunications Industry Churn Benchmarks
-
-Customer Retention Strategy Frameworks
-
-Executive Dashboard Design Principle
+- **No cost data**: Without detailed costs of retention efforts or customer acquisition, exact financial impact or ROI of interventions cannot be calculated.
 
 
 
@@ -570,25 +542,9 @@ Executive Dashboard Design Principle
 
 
 
-**Maven Telecommunications** is facing customer retention challenges and needs to understand the underlying causes and patterns of churn in order to develop effective customer retention strategies.
 
-This project seeks to answer the following key business questions:
 
-- How many customers joined the company during the last quarter?
 
-- What is the profile of customers who churned, joined, or stayed? How are they different?
-
-- What are the main drivers of customer churn?
-
-- Is the company losing high-value customers? If so, how can they be retained?
-
-- What patterns can be identified based on customer tenure, service usage, and billing?
-
-- Are certain customer segments or demographics more likely to churn than others?
-
-- How can the company use data to make proactive, insight-driven retention decisions?
-
-## Data Overview
 
 
 
